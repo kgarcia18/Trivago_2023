@@ -1,0 +1,581 @@
+.pantalla1{
+    width: 100%;
+    height: 100vh;
+}
+.foto_div, .menu{
+    display: none;
+}
+.sombra1{
+    position: absolute;
+    float: left;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 124.9rem;
+    margin-top: 104rem;
+    background-color: #fc3e05;
+    opacity: 0.9;
+    filter: blur(11rem);
+}
+.inicio{
+    width: 85%;
+    margin: auto;
+    height: 10rem;
+}
+.inicio, .inicio1, .inicio2, .inicio3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inicio1{
+    width: 14%;
+    font-size: 3rem;
+}
+.inicio2{
+    width: 32%;
+    font-size: 1.5rem;
+}
+.inicio3{
+    width: 15%;
+    font-size: 1.5rem;
+}
+.singup{
+    width: 10rem;
+    height: 5rem;
+    background-color:#5D50C6;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.frame1, .lonch, .travel{
+    display: flex;
+    align-items: center;
+}
+.frame1{
+    width: 85%;
+    margin: auto;
+    height: 85rem;
+    justify-content: space-between;
+}
+.fotos{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.frameuno{
+    height: 69rem;
+}
+.lonch{
+    border: 0.2px solid rgb(209, 203, 203);
+    width: 20rem;
+    height: 5.6rem;
+    justify-content: space-evenly;
+    border-radius: 3rem;
+}
+.lonch:hover{
+    box-shadow:  0px 10px 10px rgb(201, 199, 199);
+}
+.travel{
+    width: 40rem;
+    height: 33.5rem;
+    font-size: 7rem;
+    justify-content: center;
+}
+.rosa{
+    color: #F85E9F;
+}
+.we{
+    width: 40rem;
+    height: 15rem;
+    font-size: 2rem;
+    color: #19182580;
+}
+.wee{
+    width: 40rem;
+    height: 4.7rem;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 33rem;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+.boton1, .boton2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5rem;
+    border-radius: 3rem;
+}
+.boton1{
+    background-color:#5D50C6;
+    color: white;
+    width: 13rem;
+}
+.boton2{
+    width: 16rem;
+    border: 1px solid rgb(209, 203, 203);
+}
+.triangulo{
+    float: left;
+    margin-top: -18rem;
+    margin-left: 2rem;
+}
+.logos{
+    width: 85%; 
+    margin: auto;
+    height: 5rem;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.frame2{
+    padding: 0.5rem;
+    height: 65rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.framedos{
+    width: 30%;
+    height: 15rem;
+    margin-left: 10rem;
+}
+.services{
+    font-size: 2rem;
+    height: 4rem;
+}
+.our{
+    font-size: 4rem;
+}
+.seccion1{
+    width: 63%;
+    height: 44rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.seccionuno{
+    border: 0.5px solid rgb(209, 203, 203);
+    border-radius: 3rem;
+    width: 27rem;
+    height: 94%;
+}
+.seccionuno:hover{
+    box-shadow:  0px 10px 10px rgb(201, 199, 199);
+}
+.seccionimg, .secciontexto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccionimg{
+    height: 45%;
+}
+.secciontexto{
+    height: 35%;
+    text-align: center;
+}
+.secciontitulo{
+    font-size: 2rem;
+    height: 4.5rem;
+}
+.seccionfrase{
+    width: 18rem;
+    font-size: 1.5rem;
+    color: #19182580;
+}
+.frame3{
+    width: 85%;
+    margin: auto;
+    height: 90rem;
+}
+.frametres{
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.destination{
+    width: 80%;
+}
+.destinationuno{
+    height: 3rem;
+    font-size: 2.3rem;
+}
+.destinationdos{
+    height: 5.3rem;
+    font-size: 4.4rem;
+}
+.flechas{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flecha1, .flecha2, .flecha3, .flecha4{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rem;
+}
+.flecha1, .flecha3{
+    border: 1px solid rgba(25, 24, 37, 0.1);
+}
+.flecha2, .flecha4{
+    background-color: rgba(93, 80, 198, 1);
+}
+.frame3_seccion, .frame3_info, .ubicacion_calificacion{
+    display: flex;
+    align-items: center;
+}
+.frame3_seccion{
+    width: 100%;
+    height: 60rem;
+    justify-content: space-between;
+}
+.frame3foto{
+    width: 35.9rem;
+}
+.frame3_seccionfotos{
+    border: 0.5px solid rgb(180, 176, 176);
+    border-radius: 4rem;
+    width: 36rem;
+}
+.frame3_seccionfotos:hover{
+    box-shadow:  1px 10px 10px rgb(170, 168, 168);
+}
+.frame3_info{
+    width: 100%;
+    height: 27rem;
+    border-radius: 5rem;
+    float: left;
+    margin-top: -4rem;
+    justify-content: center;
+}
+.ubicacion{
+    width: 30rem;
+    height: 7rem;
+    display: flex;
+}
+.ubicacion3{
+    display: none;
+}
+.ubicacion1{
+    width: 228rem;
+    font-size: 2.3rem;
+}
+.ubicacion2{
+    width: 8rem;
+    font-size: 2rem;
+}
+.ubicacion_pais{
+    height: 4rem;
+    font-size: 1.8rem;
+    color: rgba(25, 24, 37, 0.75);
+    margin-bottom: 1.5rem;
+}
+.ubicacion_calificacion{
+    width: 6.6rem;
+    justify-content: space-between;
+    font-size: 2.3rem;
+}
+.naranja{
+    color: rgba(255, 87, 34, 1);
+}
+.frame4, .cantidades, .cuadro{
+    display: flex;
+    align-items: center;
+}
+.frame4{
+    height: 80rem;  
+}
+.maleta{
+    width: 83.5rem;
+}
+.framecuatro{
+    width: 43rem;
+    height: 66.7rem;
+}
+.traveldos{
+    height: 3.5rem;
+    font-size: 2.3rem;
+}
+.wedos{
+    height: 13rem;
+    font-size: 4.4rem;
+}
+.contrary{
+    width: 40rem;
+    height: 10rem;
+    font-size: 1.8rem;
+    color: rgba(25, 24, 37, 0.5);
+}
+.cantidades{
+    height: 20rem;
+    text-align: center;
+    justify-content: space-around;
+}
+.cuadro{
+    width: 18rem;
+    height: 14rem;
+    border: 1px solid rgba(25, 24, 37, 0.1);
+    border-radius: 3.2rem;
+    justify-content: center;
+}
+.letranaranja{
+    font-size: 3.5rem;
+}
+.letra{
+    font-size: 1.8rem;
+    color: rgba(25, 24, 37, 1);
+}
+.tiketa{
+    float: left;
+    margin-top: -55rem;
+    margin-left: 107.2rem;
+}
+.frame5, .macati{
+    display: flex;
+    align-items: center;
+}
+.frame5{
+    width: 92.5%;
+    margin-left: 7.5%;
+    height: 99.7rem;
+    justify-content: space-between;
+}
+.framecinco1{
+    display: none;
+}
+.framecinco{
+    width: 54.9rem;
+    height: 77.2rem;
+}
+.framecinco_texto{
+    height: 25rem;
+}
+.key{
+    font-size: 2.3rem;
+    height: 4rem;
+}
+.wetres{
+    font-size: 4.4rem;
+    height: 7rem;
+}
+.contrarydos{
+    width: 45rem;
+    font-size: 1.8rem;
+    color: rgba(25, 24, 37, 0.5);
+}
+.macati1{
+    height: 15rem;
+}
+.macati{
+    width: 48rem;
+    height: 13rem;
+    justify-content: center;
+    border-radius: 3.2rem;
+    border: 1px solid rgba(25, 24, 37, 0.1);
+}
+.macati:hover{
+    box-shadow:  0px 10px 10px rgb(201, 199, 199);
+}
+.opcion{
+    width: 13rem;
+}
+.wecuatro{
+    font-size: 2rem;
+    height: 3rem;
+}
+.lorem{
+    width: 26rem;
+    font-size: 1.5rem;
+    color: rgba(25, 24, 37, 0.5);
+}
+.frame6, .persona1{
+    display: flex;
+    align-items: center;
+}
+.frame6{
+    width: 85%;
+    height: 80rem;
+    margin: auto;
+    justify-content: space-between;
+}
+.persona{
+    width: 80rem;
+    height: 100%;
+    text-align: center;
+}
+.testimonial{
+    height: 3rem;
+    font-size: 2rem;
+}
+.trust{
+    font-size: 4.4rem;
+}
+.persona1{
+    height: 33rem;
+    justify-content: center;
+}
+.naranja_otro{
+    height: 5rem;
+}
+.naranja1{
+    font-size: 2.3rem;
+}
+.enthusiast{
+    font-size: 2rem;
+}
+.estrellas1{
+    height: 6rem;
+}
+.estrellas{
+    width: 19rem;
+}
+.contrary1{
+    height: 8rem;
+    font-size: 2.3rem;
+    color: rgba(25, 24, 37, 0.75);
+}
+.circulos{
+    height: 20rem;
+}
+.frame7, .prepare{
+    display: flex;
+    justify-content: center;
+}
+.frame7{
+    background-color: rgba(250, 205, 73, 0.08);
+    border-radius: 3.2rem;
+    width: 85%;
+    height: 60.8rem;
+    margin: auto;
+    align-items: center;
+}
+.siete{
+    width: 105.6rem;
+    height: 35.2rem;
+}
+.palabras{
+    text-align: center;
+}
+.subscribe{
+    height: 6rem;
+    font-size: 2.3rem;
+}
+.prepare{
+    height: 20rem;
+    font-size: 5.5rem;
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.botonn1, .botonn11, .botonn2{
+    display: flex;
+    align-items: center;
+    height: 9.6rem;
+}
+.botonn1:hover{
+    box-shadow:  0px 10px 10px rgb(201, 199, 199);
+}
+.botonn2:hover{
+    box-shadow:  0px 10px 10px rgb(201, 199, 199);
+}
+.botonn1{
+    background-color: rgba(255, 255, 255, 1);
+    width: 75.7rem;
+    border-radius: 3.2rem;
+    font-size: 2.3rem;
+}
+.botonn11{
+    margin-left: 2rem;
+    width: 20rem;
+    justify-content: space-around;
+}
+.botonn2{
+    background-color:rgba(93, 80, 198, 1);
+    color: white;
+    width: 23.5rem;
+    border-radius: 3.2rem;
+    justify-content: center;
+    font-size: 2.3rem;
+}
+.puntitos{
+    float: left;
+    margin-top: -33.7rem;
+    margin-left: 3rem;
+}
+.lineas{
+    float: left;
+    margin-top: -63rem;
+    margin-left: 123.7rem;
+}
+.frame8, .frame8_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.frame8{
+    width: 85%;
+    height: 50rem;
+    margin: auto;
+}
+.frameocho{
+    width: 56rem;
+    height: 30rem;
+}
+.frame8_logo{
+    width: 14.2rem;
+    font-size: 2.3rem;
+}
+.frame8_text{
+    height: 20rem;
+    font-size: 2.3rem;
+    color: rgba(25, 24, 37, 0.5);
+    display: flex;
+    align-items: center;
+}
+.frame8_palabra{
+    width: 55.5rem;
+    height: 29rem;
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+    font-size: 2.3rem;
+    height: 7rem;
+}
+.subtitulo, .subtitulo1{
+    font-size: 1.8rem;
+    color: rgba(25, 24, 37, 0.75);
+}
+.subtitulo{
+    width: 16rem;
+    height: 5rem;
+}
+.subtitulo1{
+    width: 15rem;
+    height: 6rem;
+}
+.fondo{
+    width: 100%;
+    height: 95rem;
+    background-image: url("/img/fondo.png");
+    margin-top: -225rem;
+}
+.flecha5, .flechaabajo{
+    display: none;
+}
+.pantalla2{
+    display: none;
+}

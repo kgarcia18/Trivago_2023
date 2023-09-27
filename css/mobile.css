@@ -1,0 +1,510 @@
+.pantalla{
+    width: 100%;
+    height: 100vh;
+}
+.inicio2,.inicio3, .div_fotos{
+    background-color: #5D50C6;
+    display: none;
+}
+.inicio, .inicio1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inicio{
+    width: 95%;
+    height: 11rem;
+    margin: auto;
+}
+.inicio1{
+    width: 14rem;
+    font-size: 2.4rem;
+}
+.frame1{
+    width: 95%;
+    margin: auto;
+}
+.foto_div{
+    height: 43rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fotos{
+    width: 37rem;
+    height: 43.6rem;
+}
+.frameuno{
+    height: 47.7rem;
+    text-align: center;
+}
+.lonch{
+    margin: auto;
+    border: 0.2px solid rgb(209, 203, 203);
+    width: 22.4rem;
+    height: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 3rem;
+    margin-bottom: 3rem;
+}
+.lonch:hover{
+    box-shadow:  0px 10px 20px rgb(201, 199, 199);
+}
+.travel{
+    margin: auto;
+    width: 35.5rem;
+    height: 14.4rem;
+    font-size: 4rem;
+}
+.rosa{
+    color: #F85E9F;
+}
+.we{
+    width: 100%;
+    font-size: 1rem;
+    color: #19182580;
+    margin-bottom: 2rem;
+}
+.wee{
+    width: 100%;
+    height: 2rem;
+}
+.boton1, .boton2{
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 6.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+.boton1{
+    background-color:#5D50C6;
+    color: white;
+}
+.boton2{
+    border: 1px solid rgb(182, 179, 179);
+}
+.watch{
+    width: 10rem;
+}
+.triangulo{
+    display: none;
+}
+.logos{
+    text-align: center;
+    width: 95%;
+    height: 10rem; 
+    margin: auto; 
+    margin-bottom: 5rem;
+}
+.logos_1{
+    width: 13.2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+.frame2{
+    height: 107.6rem;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.framedos{
+    height: 11.1rem;
+    margin-bottom: 5rem;
+}
+.services{
+    font-size: 1.6rem;
+    margin-bottom: 1.9rem;
+}
+.our{   
+    font-size: 3.2rem;
+}
+.seccion1{
+    height: 86.9rem;
+}
+.seccionuno{
+    height: 27.9rem;
+    margin-bottom: 3rem;
+    border-radius: 3.2rem;
+    border: 1px solid rgb(175, 173, 173);
+}
+.seccionuno:hover{
+    box-shadow:  0px 10px 10px rgb(201, 199, 199);
+}
+.seccionimg, .secciontexto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccionimg{
+    height: 45%;
+}
+.secciontexto{
+    height: 35%;
+    text-align: center;
+}
+.secciontitulo{
+    font-size: 2.4rem;
+    height: 6rem;
+}
+.seccionfrase{
+    width: 26.5rem;
+    font-size: 1.5rem;
+    color: #19182580;
+}
+.frame3{
+    width: 95%;
+    margin: auto;
+    height: 195rem;
+}
+.frametres{
+    height: 16.9rem;
+}
+.destination{
+    text-align: center;
+    height: 7.3rem;
+    margin-bottom: 2rem;
+}
+.destinationuno{
+    height: 1.9rem;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.destinationdos{
+    height: 3.8rem;
+    font-size: 3.2rem;
+}
+.flechas{
+    height: 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flecha1, .flecha2, .flecha4, .flecha5{
+    width: 6.4rem;
+    height: 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10rem;
+}
+.flecha1, .flecha5{
+    border: 1px solid rgba(25, 24, 37, 0.1);
+}
+.flecha2, .flecha4{
+    background-color: rgba(93, 80, 198, 1);
+}
+.frame3_seccionfotos{
+    border: 0.5px solid rgb(180, 176, 176);
+    width: 35rem;
+    height: 55rem;
+    border-radius: 4rem;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.frame3_seccionfotos:hover{
+    box-shadow:  1px 10px 10px rgb(170, 168, 168);
+}
+.frame3foto{
+    width: 35rem;
+    margin-bottom: 2rem;
+}
+.frame3_info{
+    width: 35rem;
+    height: 17.1rem;
+    margin: auto;
+}
+.ubicacion2{
+    display: none;
+}
+.ubicacion3{
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+.ubicacion1{
+    font-size: 2.3rem;
+    margin-bottom: 1.3rem;
+}
+.ubicacion_pais{
+    font-size: 1.8rem;
+    color: rgba(25, 24, 37, 0.75);
+    margin-bottom: 2rem;
+}
+.ubicacion_calificacion{
+    font-size: 2.3rem;
+}
+.naranja{
+    color: rgba(255, 87, 34, 1);
+}
+.frame4{
+    width: 95%;
+    margin: auto;
+    height: 140rem;  
+    margin-bottom: 10rem;
+}
+.maleta{
+    width: 36rem;
+    margin-bottom: 7rem;
+}
+.framecuatro{
+    height: 90.5rem;
+    text-align: center;
+}
+.traveldos{
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+.wedos{
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+}
+.contrary{
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(25, 24, 37, 0.5);
+    margin-bottom: 3rem;
+}
+.cantidades{
+    margin-bottom: 3rem;
+}
+.cuadro{
+    height: 15rem;
+    border: 1px solid rgba(25, 24, 37, 0.1);
+    border-radius: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.letranaranja{
+    font-size: 3.5rem;
+}
+.letra{
+    font-size: 1.8rem;
+    color: rgba(25, 24, 37, 1);
+}
+.tiketa{
+    display: none;
+}
+.frame5{
+    width: 95%;
+    height: 175rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+.framecinco{
+    display: none;
+}
+.fotoviaje{
+    margin: auto;
+    width: 38rem;
+    margin-bottom: 6rem;
+}
+.framecinco1{
+    height: 112rem;
+}
+.framecinco_texto{
+    height: 20.9rem;
+    text-align: center;
+}
+.key{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+.wetres{
+    font-size: 3.2rem;
+    margin-bottom: 2.5rem;
+}
+.contrarydos{
+    width: 30rem;
+    margin-left: 7rem;
+    font-size: 1.6rem;
+}
+.macati1{
+    height: 29rem;
+    margin-bottom: 2rem;
+}
+.macati{
+    width: 100%;
+    height: 29rem;
+    border-radius: 3.2rem;
+    border: 1px solid rgba(25, 24, 37, 0.1);
+}
+.macati:hover{
+    box-shadow:  0px 10px 10px rgb(201, 199, 199);
+}
+.opcion{
+    width: 17rem;
+    margin-bottom: 2rem;
+    margin-top: 4.5rem;
+}
+.wecuatro{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    text-align: left;
+}
+.lorem{
+    color: rgba(25, 24, 37, 0.5);
+    width: 25rem;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-left: 4rem;
+}
+.flecha3{
+    display: none;
+}
+.frame6{
+    width: 95%;
+    height: 77rem;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.persona{
+    height: 70rem;
+}
+.testimonial{
+    height: 6rem;
+    font-size: 1.6rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trust{
+    font-size: 3.2rem;
+    margin-bottom: 5rem;
+}
+.persona1{
+    margin-bottom: 5rem;
+}
+.naranja_otro{
+    margin-bottom: 3rem;
+}
+.naranja1{
+    font-size: 2.8rem;
+}
+.enthusiast{
+    font-size: 2.3rem;
+}
+.estrellas1{
+    margin-bottom: 8rem;
+}
+.contrary1{
+    font-size: 2rem;
+    color: rgba(25, 24, 37, 0.75);
+    margin-bottom: 5rem;
+}
+.circulos{
+    margin-bottom: 3rem;
+}
+.flecha4{
+    margin-top: -6.5rem;
+    margin-left: 83.7%
+}
+.frame7{
+    background-color: rgba(250, 205, 73, 0.08);
+    width: 95%;
+    height: 50rem;
+    margin: auto;
+    border-radius: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.siete{
+    width: 33.4rem;
+    height: 43rem;
+    text-align: center;
+}
+.palabras{
+    height: 18.4rem;
+    margin-bottom: 7rem;
+}
+.subscribe{
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    width: 20rem;
+    margin-left: 7rem;
+}
+.prepare{
+    font-size: 3.2rem;
+}
+.botonn1, .botonn11, .botonn2{
+    display: flex;
+    align-items: center;
+}
+.botonn1:hover{
+    box-shadow:  0px 10px 10px rgb(201, 199, 199);
+}
+.botonn2:hover{
+    box-shadow:  0px 10px 10px rgb(201, 199, 199);
+}
+.botonn1{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(25, 24, 37, 0.75);
+    width: 33.4rem;
+    height: 7.2rem;
+    border-radius: 1.6rem;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+.botonn11{
+    margin-left: 2rem;
+    width: 14rem;
+    justify-content: space-around;
+}
+.botonn2{
+    background-color:rgba(93, 80, 198, 1);
+    color: white;
+    width: 33.4rem;
+    height: 6.7rem;
+    border-radius: 1.6rem;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+.puntitos, .lineas, .subtitulo, .subtitulo1, .ultimo1{
+    display: none;
+}
+.frame8{
+    width: 95%;
+    height: 42rem;
+    margin: auto;
+}
+.redes{
+    margin-bottom: 4rem;
+}
+.frame8_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14rem;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+}
+.frame8_text{
+    font-size: 1.8rem;
+    color: rgba(25, 24, 37, 0.5);
+    margin-bottom: 3rem;
+}
+.frame8_palabra{
+    height: 16rem;
+    font-size: 2.3rem;
+}
+.ultimo{
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pantalla2{
+    display: none;
+}

@@ -1,0 +1,156 @@
+.pantalla2{
+    width: 100%;
+    height: 600.5rem;
+   
+}
+.inicio2{
+
+    width: 90%;
+    margin: auto;
+    height: 8rem;   
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+   
+}
+.item2{
+    display: flex;
+    width: 13.5rem;
+    place-items: center;
+    font-size: 2.4rem;
+    justify-content: space-between;
+}
+.item3{
+    width: 17.5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item3 span{
+    
+    font-size: 1.4rem;
+}   
+.item3 div{
+    float: right;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    border-radius: 100px;
+    font-size: 1.4rem;
+    width: 11.5rem;
+    height: 4.9rem;
+    background: #5D50C6;
+}
+.sombra1{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-left: -356px;
+    margin-top: -223px;
+    background-color: #FF5722;
+    opacity: 0.5;
+    filter: blur(250px);
+}
+.imgs{
+    width: 100%;
+    height: 1338px;
+    display: flex;
+    justify-content: center;
+}
+.obj{
+    float: left;
+    width: 8rem;
+    height: 169.95px;
+    margin-top: -44rem;
+    padding: 0 0 0 3.8rem;
+}
+.promo{
+    margin: auto;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -25rem;
+}
+.promo img{
+    width: 80rem;
+    height: 20rem;
+}
+.promo1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-top: -5rem;
+}
+.promo1 img{
+    width: 85%;
+}
+.promo2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-top: -2.5rem;
+}
+.promo2 img{
+    width: 98%;
+}
+.promo3{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-top: -42rem;
+}
+.promo3 img{
+    width: 80%;
+}
+.promo4{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+.promo4 img{
+    width: 80%;
+}
+.promo5{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+.promo5 img{
+    width: 80%;
+}
+.promo6{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-top: 7rem;
+    
+}
+.promo6 img{
+    width: 80%;
+}
+.promo7{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-top: 4rem;
+}
+.promo7 img{
+    width: 80%;
+}
