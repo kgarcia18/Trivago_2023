@@ -1,12 +1,12 @@
-<img width="200px" src="https://static.wixstatic.com/media/d1b317_4fe70cb66f9447c3991ad4cb8d7294d3~mv2.png/v1/fit/w_2500,h_1330,al_c/d1b317_4fe70cb66f9447c3991ad4cb8d7294d3~mv2.png">
+# Trivago_2023
 
-# 2P_Trivago
+Este proyecto es un sitio web estático, simple pero elegante, para una tienda de viajes construido con HTML y CSS. El objetivo es proporcionar una interfaz limpia y fácil de usar para los usuarios que buscan explorar y comprar productos y servicios relacionados con los viajes.
 
-<img width="100%" src="https://concepto.de/wp-content/uploads/2014/08/programacion-2-e1551291144973.jpg">
+### Tecnologías Utilizadas
 
-## Información
+- HTML: Para estructurar el contenido del sitio web.
+- CSS: Para el estilo y diseño, asegurando que el sitio web sea visualmente atractivo.
 
-|Nombre: |Katherine Jazmín García Chitamul|
-|--------|--------------------------------|
-|Colegio:|Santa Catalina Labouré          |
-|Mi trabajo:|https://kgarcia18.github.io/2P_Trivago/|
+### Página
+
+https://kgarcia18.github.io/Trivago_2023/
